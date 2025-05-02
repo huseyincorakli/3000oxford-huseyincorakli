@@ -1,0 +1,27 @@
+
+.vocab-english {
+    color: #64baff;  
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+.vocab-turkish {
+    color: #8ff0a4; 
+    font-style: italic;
+    margin-left: 2px;
+}
+
+.vocab-tick-button {
+    padding: 0 4px;
+    margin-left: 6px;
+}
+
+.vocab-tick-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.panel-status-menu-box {
+    spacing: 2px;
+    padding: 0 4px;
+}
