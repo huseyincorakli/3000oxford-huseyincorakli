@@ -1,4 +1,4 @@
-# Oxford 3000 Word Trainer \[TR-EN]
+# Oxford 3000 Word Trainer
 ![Logo](./image.png)
 
 ![GNOME Shell Extension](https://img.shields.io/badge/GNOME-Shell%2046-blue?style=flat-square)
