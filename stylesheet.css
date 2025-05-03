@@ -1,27 +1,64 @@
-
-.vocab-english {
-    color: #64baff;  
-    font-weight: bold;
-    margin-right: 2px;
-}
-
-.vocab-turkish {
-    color: #8ff0a4; 
-    font-style: italic;
-    margin-left: 2px;
-}
-
-.vocab-tick-button {
-    padding: 0 4px;
-    margin-left: 6px;
-}
-
-.vocab-tick-button:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 4px;
-}
-
 .panel-status-menu-box {
-    spacing: 2px;
-    padding: 0 4px;
+    spacing: 4px;
+    padding: 0 6px;
+}
+
+.vocab-source-lang {
+    color: #64baff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.vocab-target-lang {
+    color: #8ff0a4;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.vocab-tick-button, 
+.vocab-import-button {
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: background-color 100ms ease-out;
+}
+
+.vocab-tick-button:hover, 
+.vocab-import-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.vocab-tick-button:active, 
+.vocab-import-button:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.vocab-import-dialog {
+    min-width: 400px;
+}
+
+.vocab-import-headline {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f5f5f5;
+}
+
+.vocab-import-description {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #d0d0d0;
+}
+
+.error-icon {
+    color: #ff6b6b;
+    icon-size: 48px;
+}
+
+.error-label {
+    font-size: 14px;
+    color: #ff9e9e;
+    text-align: center;
+}
+
+.popup-menu-item {
+    padding: 6px 12px;
 }
